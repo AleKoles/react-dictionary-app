@@ -13,4 +13,19 @@
       margin-left: 5px !important;
     }
   }
+  footer {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .link {
+    color: #272142;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.5;
+    }
+    .git {
+      height: 20px;
+    }
+  }
 }

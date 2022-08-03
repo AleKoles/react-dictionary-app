@@ -2,20 +2,22 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
+import Dictionary from "./Dictionary";
+
 function App() {
   return (
     <div className="App">
-      <div className="search d-flex justify-content-between align-items-center">
-        <h3 className="text-uppercase pt-2 logo">DICTIONARY</h3>
-        <form>
-          <input type="text" placeholder="Type your word here" />
-          <input type="submit" value="Search" className="button" />
-        </form>
-      </div>
-      <div className="result  mt-4">
-        <h4 className="text-uppercase">Word</h4>
-        <p>Definittion</p>
-      </div>
+      <Dictionary />
+      <footer>
+        <a
+          target="_blank"
+          className="link"
+          rel="noreferrer"
+          href="https://github.com/AleKoles/react-dictionary-app"
+        >
+          <img src="/images/git.svg" alt="GitHub" className="git" /> Source Code
+        </a>
+      </footer>
     </div>
   );
 }

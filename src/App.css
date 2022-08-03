@@ -11,4 +11,18 @@
 }
 .App .search .button {
   margin-left: 5px !important;
+}
+.App footer {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.App .link {
+  color: #272142;
+  text-decoration: none;
+}
+.App .link:hover {
+  opacity: 0.5;
+}
+.App .link .git {
+  height: 20px;
 }/*# sourceMappingURL=app.css.map */
