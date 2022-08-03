@@ -1,0 +1,14 @@
+.App {
+  max-width: 700px;
+  margin: 60px auto;
+}
+.App .search .logo {
+  font-weight: 700;
+  color: #aaa9a9;
+}
+.App .search input[type=text] {
+  width: 300px;
+}
+.App .search .button {
+  margin-left: 5px !important;
+}/*# sourceMappingURL=app.css.map */

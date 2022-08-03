@@ -1,0 +1,16 @@
+.App {
+  max-width: 700px;
+  margin: 60px auto;
+  .search {
+    .logo {
+      font-weight: 700;
+      color: #aaa9a9;
+    }
+    input[type="text"] {
+      width: 300px;
+    }
+    .button {
+      margin-left: 5px !important;
+    }
+  }
+}
