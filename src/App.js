@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       <Dictionary />
-      <footer>
+      <footer className="mt-5">
         <a
           target="_blank"
-          className="link"
+          className="link "
           rel="noreferrer"
           href="https://github.com/AleKoles/react-dictionary-app"
         >
