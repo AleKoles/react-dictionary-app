@@ -12,6 +12,13 @@
 .App .search .button {
   margin-left: 5px !important;
 }
+.App .speaker {
+  height: 17px;
+}
+.App .speaker:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
 .App footer {
   text-align: center;
   letter-spacing: 1px;

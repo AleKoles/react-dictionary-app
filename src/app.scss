@@ -13,6 +13,13 @@
       margin-left: 5px !important;
     }
   }
+  .speaker {
+    height: 17px;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.5;
+    }
+  }
   footer {
     text-align: center;
     letter-spacing: 1px;

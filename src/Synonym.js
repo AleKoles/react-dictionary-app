@@ -4,7 +4,7 @@ import "./App.css";
 function Synonym(props) {
   if (props.synonym) {
     return (
-      <div className="synonyms">
+      <span className="synonyms">
         {props.synonym.map(function (synonym, index) {
           return (
             <span className="text-muted" key={index}>
@@ -12,7 +12,7 @@ function Synonym(props) {
             </span>
           );
         })}
-      </div>
+      </span>
     );
   } else {
     return null;
