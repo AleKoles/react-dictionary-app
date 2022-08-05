@@ -22,7 +22,9 @@ function Dictionary() {
   return (
     <div>
       <div className="search d-flex justify-content-between align-items-center">
-        <h3 className="text-uppercase pt-2 logo">DICTIONARY</h3>
+        <a href="/" className="text-decoration-none">
+          <h3 className="text-uppercase pt-2 logo ">DICTIONARY</h3>
+        </a>
         <form onSubmit={search}>
           <input
             type="search"
