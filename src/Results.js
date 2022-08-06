@@ -5,9 +5,8 @@ import Phonetics from "./Phonetics";
 
 function Results(props) {
   if (props.results) {
-    console.log(props.results.phonetics);
     return (
-      <div className="result  pt-5  bg-white">
+      <div className="result  pt-5 m-0 bg-white">
         <h4 className="text-uppercase  bg-white">{props.results.word}</h4>
         {props.results.phonetics.map(function (phonetic, index) {
           return (

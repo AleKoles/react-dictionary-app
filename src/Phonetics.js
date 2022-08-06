@@ -3,7 +3,6 @@ import ReactAudioPlayer from "react-audio-player";
 import "./App.css";
 
 function Phonetics(props) {
-  console.log(props.phonetic);
   return (
     <div className="d-flex  bg-white">
       <h5 className="text-muted me-2  bg-white">{props.phonetic.text}</h5>

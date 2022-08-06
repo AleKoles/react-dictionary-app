@@ -11,7 +11,7 @@ function App() {
       <footer className="mt-5  bg-white">
         <a
           target="_blank"
-          className="link  bg-white"
+          className="link bg-white"
           rel="noreferrer"
           href="https://github.com/AleKoles/react-dictionary-app"
         >

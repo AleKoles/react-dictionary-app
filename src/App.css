@@ -1,3 +1,7 @@
+body {
+  background-color: #f7f9fb;
+}
+
 .App {
   max-width: 700px;
   margin: 60px auto;
@@ -22,6 +26,10 @@
 .App .speaker:hover {
   cursor: pointer;
   opacity: 0.5;
+}
+.App .image {
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 .App footer {
   text-align: center;
