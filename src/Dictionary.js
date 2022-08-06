@@ -21,11 +21,11 @@ function Dictionary() {
   }
   return (
     <div>
-      <div className="search d-flex justify-content-between align-items-center">
-        <a href="/" className="text-decoration-none">
-          <h3 className="text-uppercase pt-2 logo ">DICTIONARY</h3>
+      <div className="search d-flex justify-content-between align-items-center bg-white">
+        <a href="/" className="text-decoration-none  bg-white">
+          <h3 className="text-uppercase pt-2 logo  bg-white">DICTIONARY</h3>
         </a>
-        <form onSubmit={search}>
+        <form onSubmit={search} className="bg-white">
           <input
             type="search"
             placeholder="Type your word here"

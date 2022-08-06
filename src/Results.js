@@ -7,8 +7,8 @@ function Results(props) {
   if (props.results) {
     console.log(props.results.phonetics);
     return (
-      <div className="result  mt-4">
-        <h4 className="text-uppercase">{props.results.word}</h4>
+      <div className="result  pt-5  bg-white">
+        <h4 className="text-uppercase  bg-white">{props.results.word}</h4>
         {props.results.phonetics.map(function (phonetic, index) {
           return (
             <div key={index}>
